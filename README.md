@@ -1,1 +1,1 @@
-# Semi-supervised-Adaptive-Discriminative-Discretization-for-Naive-Bayes-classifier
+# Semi-supervised-Adaptive-Discriminative-Discretization-(SADD)-for-Naive-Bayes-classifier
