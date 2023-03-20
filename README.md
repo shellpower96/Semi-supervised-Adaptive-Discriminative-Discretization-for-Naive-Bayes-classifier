@@ -9,7 +9,7 @@
 
 ## Implementation
 This is an source code of `SADD` for naive Bayes classifier by using MATLAB. The version of MATLAB should be `>=2019b`.
-- To successfully run the code, you need install the Bioinformatics Toolbox and Statistics and Machine Learning Toolbox.
+- To successfully run the code, you need install the `Bioinformatics Toolbox` and `Statistics and Machine Learning Toolbox`.
 * Dowload the source file, place it MATLAB and then run the `main.m` file.
 
 ## Dataset
