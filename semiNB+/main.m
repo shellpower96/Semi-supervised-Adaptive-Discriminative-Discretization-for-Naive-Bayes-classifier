@@ -1,15 +1,16 @@
 clear;
 
 %% load data
-DATA = load ('../datasets/eswa_dataset_org/Cardio_2126_23_N.dat');
+name ='';
+DATA = load (name);
 rng('default')
 feat = DATA(:,1:end-1);
 label = DATA(:,end);
 class_lab = unique(label);
 
 %% get 10-fold splitting
-indices = crossvalind('Kfold',label,fold,'Classes',class_lab);
-rates =zeros(fold,1);
+indices = crossvalind('Kfold',label,10,'Classes',class_lab);
+rates =zeros(10,1);
 
 
 for k=1:10

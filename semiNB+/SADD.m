@@ -25,8 +25,8 @@ for i=1:NUM_U_SAMPLE
     pseudo_label(i) = ia(id_x);
 end
 
-semi_feat = [L_feat;U_feat];
-semi_label = [L_label;pseudo_label];
+semi_feat = [tr_feat;te_feat];
+semi_label = [tr_label;pseudo_label];
 
 [rows,cols] = size(semi_feat);
 m_cutPoints = zeros(cols,rows);

@@ -1,5 +1,7 @@
 function rate = NB(tr_feat, tr_label, te_feat, te_label)
-
+rng('default')
+class_lab = unique(tr_label);
+cols = size(tr_feat,2);
     NUM_CLASSES = numel(class_lab);
     NUM_TE_ATTRI = numel(te_label);
     prior_prob =zeros(NUM_CLASSES,1);
