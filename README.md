@@ -1,6 +1,6 @@
 # Semi-supervised Adaptive Discriminative Discretization (SADD) for Naive Bayes classifier
 `SADD` is a semi-supervised discretization framework that can be universally applied in various naive Bayes classifiers. 
-![](https://github.com/shellpower96/Semi-supervised-Adaptive-Discriminative-Discretization-for-Naive-Bayes-classifier/blob/main/block%20diagram.pdf)
+![](https://github.com/shellpower96/Semi-supervised-Adaptive-Discriminative-Discretization-for-Naive-Bayes-classifier/blob/main/framework.png)
 There are two main stages in `SADD`:
 - `Pseudo labeling`
 
