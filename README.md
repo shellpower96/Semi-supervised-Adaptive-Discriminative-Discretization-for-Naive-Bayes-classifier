@@ -15,7 +15,8 @@ This is an source code of `SADD` for naive Bayes classifier by using MATLAB. The
 * Dowload the source file, place it MATLAB and then run the `main.m` file.
 
 ## Dataset
-The example dataset `IndoorLoc.csv` have total 21048 samples, 520 features and 3 classes. The detailed descriptions of all datasets used in the paper can be found in https://archive.ics.uci.edu/ml/index.php.
+We provide a zip file `IndoorLoc.zip` for one of the used datasets in the paper and it contains a CSV file `IndoorLoc.csv` and `read.me` for dataset description.
+The example dataset `IndoorLoc.csv` have total 21048 samples, 520 features with 3 classes. The detailed descriptions of all datasets used in the paper can be found in https://archive.ics.uci.edu/ml/index.php.
 
 All the features should be first convert to numerical value, and then make a classification by NB classifiers.
 
