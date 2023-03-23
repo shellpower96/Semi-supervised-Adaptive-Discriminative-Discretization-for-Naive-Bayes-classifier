@@ -1,7 +1,7 @@
 clear;
 
 %% load data
-name ='';
+name =''; % put the relative path for the dataset
 DATA = load (name);
 rng('default')
 feat = DATA(:,1:end-1);

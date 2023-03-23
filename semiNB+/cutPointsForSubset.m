@@ -60,7 +60,11 @@ else
                 cutPoints = [left,bestCutPoint,right];
             end
         else
-            cutPoints = [];
+            if l ==0
+                cutPoints = [bestCutPoint];
+            else
+                cutPoints = [];
+            end
         end
     end
 end
