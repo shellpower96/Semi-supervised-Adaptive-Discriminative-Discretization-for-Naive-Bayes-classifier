@@ -22,10 +22,13 @@ All the features should be first convert to numerical value, and then make a cla
 
 If you use this code, please cite:
 ```
-@article{wang2021semi,
+@article{wang2023semi,
   title={A semi-supervised adaptive discriminative discretization method improving discrimination power of regularized naive Bayes},
   author={Wang, Shihe and Ren, Jianfeng and Bai, Ruibin},
-  journal={arXiv preprint arXiv:2111.10983},
-  year={2021}
+  journal={Expert Systems with Applications},
+  volume={225},
+  pages={120094},
+  year={2023},
+  publisher={Elsevier}
 }
 ```
